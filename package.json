@@ -1,0 +1,22 @@
+{
+  "name": "worker_threads",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc ",
+    "start": "node  ./build/server.js",
+    "compile:start": "npm run tsc && npm run start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.35",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "ts-node": "^10.7.0"
+  },
+  "engines": { "node": "14.x" }
+}
